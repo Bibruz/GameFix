@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="GameFix — диагностика, исправление и оптимизация старых PC-игр на современных компьютерах.">
+
+    <title>GameFix — Старые игры. Новые возможности.</title>
+
+    <link rel="stylesheet" href="kol.css">
+    
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header" id="header">
+    <div class="container header-inner">
+
+        <a href="#home" class="brand">
+            <img src="ponos.jpeg" alt="GameFix">
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#home">Главная</a>
+            <a href="#problems">Проблемы</a>
+            <a href="#features">Возможности</a>
+            <a href="#how-it-works">Как работает</a>
+            <a href="#pricing">Тарифы</a>
+        </nav>
+
+        <!-- Переключатель темы -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Сменить тему">
+            ☀️
+        </button>
+
+        <a href="#scanner" class="header-button">
+            Проверить ПК
+        </a>
+
+        <button class="menu-button" id="menuButton" aria-label="Открыть меню">
+            ☰
+        </button>
+
+    </div>
+</header>
+
+
+<!-- ================= MAIN ================= -->
+
+<main>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-grid">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                <span class="status-dot"></span>
+                GAMEFIX SOFTWARE
+            </div>
+
+            <h1>
+                Старые игры.
+                <span>Новые возможности.</span>
+            </h1>
+
+            <p class="hero-description">
+                Автоматическая диагностика, исправление и оптимизация
+                старых PC-игр для современных компьютеров.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#scanner" class="button button-primary">
+                    Проверить игру
+                    <span>→</span>
+                </a>
+
+                <a href="#how-it-works" class="button button-secondary">
+                    Как это работает
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div>
+                    <strong>01</strong>
+                    <span>Диагностика</span>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <span>Исправление</span>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <span>Оптимизация</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Scanner UI -->
+
+        <div class="scanner-preview">
+
+            <div class="scanner-window">
+
+                <div class="window-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span>GAMEFIX SCANNER</span>
+
+                    <span class="window-status">
+                        ● ONLINE
+                    </span>
+
+                </div>
+
+
+                <div class="scanner-body">
+
+                    <div class="scanner-heading">
+
+                        <div class="scanner-icon">
+                            ⚙️
+                        </div>
+
+                        <div>
+                            <p>SYSTEM ANALYSIS</p>
+                            <h3>Ready to scan</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="system-list">
+
+                        <div class="system-row">
+                            <span>Operating System</span>
+                            <strong>Windows 11</strong>
+                        </div>
+
+                        <div class="system-row">
+                            <span>Display</span>
+                            <strong>1920 × 1080</strong>
+                        </div>
+
+                        <div class="system-row">
+                            <span>Graphics</span>
+                            <strong class="blue-text">GPU DETECTED</strong>
+                        </div>
+
+                        <div class="system-row">
+                            <span>Processor</span>
+                            <strong class="blue-text">CPU DETECTED</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="compatibility">
+
+                        <div class="compatibility-top">
+                            <span>Compatibility</span>
+                            <strong>83%</strong>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="scanner-footer">
+
+                        <span>
+                            <i></i>
+                            System ready
+                        </span>
+
+                        <button onclick="scrollToScanner()">
+                            Start Scan
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROBLEMS ================= -->
+
+<section class="section problems" id="problems">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">01 / PROBLEMS</span>
+
+                <h2>
+                    Старые игры не всегда
+                    <span>дружат с современными ПК.</span>
+                </h2>
+            </div>
+
+            <p>
+                GameFix решает типичные проблемы, с которыми сталкиваются
+                игроки при запуске старых игр на современном оборудовании.
+            </p>
+
+        </div>
+
+
+        <div class="problem-grid">
+
+            <article class="problem-card">
+
+                <div class="card-number">01</div>
+                <div class="card-icon">▣</div>
+
+                <h3>Resolution</h3>
+
+                <p>
+                    Чёрные полосы, неправильное разрешение,
+                    растянутое изображение и отсутствие widescreen.
+                </p>
+
+            </article>
+
+
+            <article class="problem-card">
+
+                <div class="card-number">02</div>
+                <div class="card-icon">ϟ</div>
+
+                <h3>Low FPS</h3>
+
+                <p>
+                    Нестабильная частота кадров, просадки FPS
+                    и проблемы с ограничением производительности.
+                </p>
+
+            </article>
+
+
+            <article class="problem-card">
+
+                <div class="card-number">03</div>
+                <div class="card-icon">◈</div>
+
+                <h3>Compatibility</h3>
+
+                <p>
+                    Старые игры могут неправильно работать
+                    с Windows 10 и Windows 11.
+                </p>
+
+            </article>
+
+
+            <article class="problem-card">
+
+                <div class="card-number">04</div>
+                <div class="card-icon">⌁</div>
+
+                <h3>Controls</h3>
+
+                <p>
+                    Проблемы с современными контроллерами,
+                    мышью и клавиатурой.
+                </p>
+
+            </article>
+
+
+            <article class="problem-card">
+
+                <div class="card-number">05</div>
+                <div class="card-icon">!</div>
+
+                <h3>Crashes</h3>
+
+                <p>
+                    Вылеты, ошибки и проблемы из-за старых
+                    библиотек и конфигурационных файлов.
+                </p>
+
+            </article>
+
+
+            <article class="problem-card">
+
+                <div class="card-number">06</div>
+                <div class="card-icon">↯</div>
+
+                <h3>Performance</h3>
+
+                <p>
+                    Избыточная нагрузка на CPU и GPU
+                    даже в старых играх.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="section how" id="how-it-works">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="section-label">02 / HOW IT WORKS</span>
+
+            <h2>
+                Проверил.
+                <span>Исправил. Играешь.</span>
+            </h2>
+
+            <p>
+                GameFix превращает поиск решений на форумах
+                в несколько простых действий.
+            </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">01</div>
+
+                <div class="step-content">
+                    <span>STEP 01</span>
+                    <h3>Выбираешь игру</h3>
+                    <p>
+                        Выбираешь игру, которую хочешь запустить
+                        или оптимизировать.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">02</div>
+
+                <div class="step-content">
+                    <span>STEP 02</span>
+                    <h3>GameFix анализирует систему</h3>
+                    <p>
+                        Сервис проверяет характеристики компьютера
+                        и параметры игры.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">03</div>
+
+                <div class="step-content">
+                    <span>STEP 03</span>
+                    <h3>Находит проблемы</h3>
+                    <p>
+                        Система определяет потенциальные проблемы
+                        совместимости и производительности.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">04</div>
+
+                <div class="step-content">
+                    <span>STEP 04</span>
+                    <h3>Предлагает решения</h3>
+                    <p>
+                        GameFix показывает доступные исправления
+                        и рекомендуемые настройки.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">05</div>
+
+                <div class="step-content">
+                    <span>STEP 05</span>
+                    <h3>Применяет исправления</h3>
+                    <p>
+                        Пользователь выбирает необходимые изменения
+                        и применяет их.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="step-number">06</div>
+
+                <div class="step-content">
+                    <span>STEP 06</span>
+                    <h3>Запускаешь игру</h3>
+                    <p>
+                        Всё готово. Можно возвращаться к игре.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+
+<section class="section features" id="features">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">03 / FEATURES</span>
+
+                <h2>
+                    Всё необходимое
+                    <span>в одном месте.</span>
+                </h2>
+            </div>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon">⌕</div>
+                <h3>Automatic Diagnostics</h3>
+                <p>Автоматический поиск проблем совместимости.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">▣</div>
+                <h3>Resolution Fix</h3>
+                <p>Исправление разрешения и aspect ratio.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">◫</div>
+                <h3>Widescreen Fix</h3>
+                <p>Поддержка современных широкоформатных экранов.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">ϟ</div>
+                <h3>FPS Control</h3>
+                <p>Настройка и ограничение частоты кадров.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">◆</div>
+                <h3>Graphics Optimization</h3>
+                <p>Оптимизация графики под конкретную систему.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">⌘</div>
+                <h3>Controller Fix</h3>
+                <p>Настройка современных контроллеров.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">›_</div>
+                <h3>Launch Parameters</h3>
+                <p>Автоматическая настройка параметров запуска.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">{ }</div>
+                <h3>Config Editor</h3>
+                <p>Работа с конфигурационными файлами.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">↺</div>
+                <h3>Backup & Restore</h3>
+                <p>Резервное копирование и восстановление настроек.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">☷</div>
+                <h3>Fix Database</h3>
+                <p>База готовых решений для популярных игр.</p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SCANNER SECTION ================= -->
+<section class="scanner" id="scanner">
+    <div class="container">
+        <div class="scanner-card">
+            <h2>Сканер совместимости игр</h2>
+            <p style="margin-bottom: 20px; color: var(--muted);">
+                Выберите игру для автоматической диагностики и оптимизации:
+            </p>
+
+            <div class="scanner-controls" style="display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap;">
+                <!-- Выбор игры (значения value ДОЛЖНЫ совпадать с JS) -->
+                <select id="gameSelect" class="game-select" style="flex: 1; min-width: 200px; padding: 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-light); color: var(--white);">
+                    <option value="S.T.A.L.K.E.R.">S.T.A.L.K.E.R.: Тень Чернобыля</option>
+                    <option value="GTA San Andreas">GTA: San Andreas</option>
+                    <option value="Need for Speed: Most Wanted">NFS: Most Wanted</option>
+                    <option value="Fallout: New Vegas">Fallout: New Vegas</option>
+                </select>
+
+                <button id="scanButton" class="header-button" style="cursor: pointer;">
+                    Запустить диагностику
+                </button>
+            </div>
+
+            <!-- Консоль логов -->
+            <div class="scan-console" id="consoleContent" style="min-height: 160px; max-height: 220px; overflow-y: auto; background: #090d12; border-radius: 8px; padding: 15px; font-family: monospace; font-size: 13px; margin-bottom: 20px;">
+                <div class="console-line"><span class="console-blue">[SYSTEM]</span> Нажмите "Запустить диагностику"...</div>
+            </div>
+
+            <!-- Динамический блок результатов -->
+            <div class="scan-results" id="scanResults" style="display: none; border-top: 1px solid var(--border); pt: 20px; padding-top: 20px;">
+                <h3 style="margin-bottom: 15px;">Результат анализа: <span id="resultGame" style="color: var(--blue);">-</span></h3>
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                    <div style="background: rgba(255,255,255,0.04); padding: 15px; border-radius: 8px; border: 1px solid var(--border);">
+                        <div style="font-size: 12px; color: var(--muted);">Совместимость</div>
+                        <div id="resultCompat" style="font-size: 26px; font-weight: bold; color: #ffaa00;">0%</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.04); padding: 15px; border-radius: 8px; border: 1px solid var(--border);">
+                        <div style="font-size: 12px; color: var(--muted);">Прирост кадровой частоты</div>
+                        <div id="resultFps" style="font-size: 18px; font-weight: bold; color: #0070f3;">-</div>
+                    </div>
+                </div>
+
+                <div style="background: rgba(255,77,77,0.1); border: 1px solid rgba(255,77,77,0.3); padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <strong style="color: #ff4d4d;">Найденные проблемы:</strong>
+                    <p id="resultIssues" style="margin-top: 6px; font-size: 14px; color: var(--text);">-</p>
+                </div>
+
+                <button id="fixButton" class="header-button" style="width: 100%; text-align: center; justify-content: center; cursor: pointer;">
+                    Применить исправления
+                </button>
+
+                <div id="fixSuccess" style="display: none; margin-top: 15px; color: #00ff88; font-weight: bold; text-align: center;">
+                    ✓ Исправления успешно применены! Запустите игру.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Results -->
+
+        <div class="scan-results" id="scanResults">
+
+            <div class="results-header">
+
+                <div>
+                    <span class="section-label">ANALYSIS COMPLETE</span>
+                    <h3 id="resultGame">The Saboteur</h3>
+                </div>
+
+                <div class="issues-count">
+                    <strong>2</strong>
+                    <span>проблемы</span>
+                </div>
+
+            </div>
+
+
+            <div class="result-list">
+
+                <div class="result-item warning">
+                    <span>!</span>
+                    <div>
+                        <strong>Resolution</strong>
+                        <p>Проблема обнаружена</p>
+                    </div>
+                </div>
+
+                <div class="result-item warning">
+                    <span>!</span>
+                    <div>
+                        <strong>FPS</strong>
+                        <p>Рекомендуется ограничение 60 FPS</p>
+                    </div>
+                </div>
+
+                <div class="result-item success">
+                    <span>✓</span>
+                    <div>
+                        <strong>Compatibility</strong>
+                        <p>Windows 11 compatible</p>
+                    </div>
+                </div>
+
+                <div class="result-item success">
+                    <span>✓</span>
+                    <div>
+                        <strong>Controller</strong>
+                        <p>Исправление не требуется</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button class="button button-primary"
+                    id="fixButton">
+
+                Применить исправления
+
+            </button>
+
+
+            <div class="fix-success" id="fixSuccess">
+
+                <strong>✓ Fixes successfully prepared.</strong>
+
+                <div>
+                    Resolution Fix ✓
+                    <br>
+                    FPS Optimization ✓
+                    <br>
+                    Compatibility Fix ✓
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SMART FIX ================= -->
+
+<section class="section smart-fix">
+
+    <div class="container">
+
+        <div class="smart-content">
+
+            <div>
+
+                <span class="section-label">05 / FUTURE TECHNOLOGY</span>
+
+                <h2>
+                    Smart <span>Fix.</span>
+                </h2>
+
+                <p>
+                    GameFix анализирует характеристики компьютера
+                    и параметры игры, чтобы подобрать оптимальные
+                    настройки автоматически.
+                </p>
+
+                <div class="smart-badge">
+                    ◉ FUTURE FEATURE
+                </div>
+
+            </div>
+
+
+            <div class="smart-flow">
+
+                <div class="flow-item">
+                    <span>Your PC</span>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-item">
+                    <span>Game Analysis</span>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-item">
+                    <span>Compatibility Check</span>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-item highlighted">
+                    <span>Recommended Settings</span>
+                </div>
+
+                <div class="flow-arrow">↓</div>
+
+                <div class="flow-item final">
+                    <span>Optimized Game</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRICING ================= -->
+
+<section class="section pricing" id="pricing">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <span class="section-label">06 / PRICING</span>
+
+            <h2>
+                Выбирай свой
+                <span>GameFix.</span>
+            </h2>
+
+            <p>
+                Начни бесплатно или получи расширенные возможности.
+            </p>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+            <!-- FREE -->
+
+            <article class="price-card">
+
+                <span class="price-label">FREE</span>
+
+                <h3>GameFix Free</h3>
+
+                <div class="price">
+                    $0
+                </div>
+
+                <p>
+                    Базовые инструменты для исправления игр.
+                </p>
+
+                <ul>
+                    <li>✓ Диагностика</li>
+                    <li>✓ Простые исправления</li>
+                    <li>✓ Настройка разрешения</li>
+                    <li>✓ Настройка FPS</li>
+                    <li>✓ Ограниченная база фиксов</li>
+                </ul>
+
+                <button class="price-button">
+                    Начать бесплатно
+                </button>
+
+            </article>
+
+
+            <!-- PRO -->
+
+            <article class="price-card featured">
+
+                <div class="popular">
+                    POPULAR
+                </div>
+
+                <span class="price-label">PRO</span>
+
+                <h3>GameFix Pro</h3>
+
+                <div class="price">
+                    $4.99
+                    <small>/ месяц</small>
+                </div>
+
+                <p>
+                    Максимум автоматизации и возможностей.
+                </p>
+
+                <ul>
+                    <li>✓ Автоматическая оптимизация</li>
+                    <li>✓ Расширенные фиксы</li>
+                    <li>✓ Автоматические обновления</li>
+                    <li>✓ Backup & Restore</li>
+                    <li>✓ Cloud Profiles</li>
+                    <li>✓ Priority Support</li>
+                </ul>
+
+                <button class="price-button primary-price">
+                    Попробовать PRO
+                </button>
+
+            </article>
+
+
+            <!-- MARKETPLACE -->
+
+            <article class="price-card">
+
+                <span class="price-label">MARKETPLACE</span>
+
+                <h3>Fix Marketplace</h3>
+
+                <div class="price">
+                    20%
+                </div>
+
+                <p>
+                    Комиссия GameFix с продажи пользовательских фиксов.
+                </p>
+
+                <ul>
+                    <li>✓ Авторы создают фиксы</li>
+                    <li>✓ Авторы устанавливают цену</li>
+                    <li>✓ Пользователи покупают решения</li>
+                    <li>✓ GameFix получает 20%</li>
+                </ul>
+
+                <button class="price-button">
+                    Узнать больше
+                </button>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+            <div>
+
+                <span class="section-label">
+                    GAMEFIX
+                </span>
+
+                <h2>
+                    Верни старым играм
+                    <span>новую жизнь.</span>
+                </h2>
+
+                <p>
+                    Меньше поиска. Меньше ручных настроек.
+                    Больше времени на игру.
+                </p>
+
+            </div>
+
+            <a href="#scanner" class="button button-primary">
+                Начать бесплатно →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <a href="#home" class="footer-logo">
+                <img src="ponos.jpeg" alt="GameFix">
+            </a>
+
+            <p>
+                Старые игры. Новые возможности.
+            </p>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 GameFix
+            </span>
+
+            <div>
+                <a href="#features">Возможности</a>
+                <a href="#how-it-works">Как работает</a>
+                <a href="#pricing">Тарифы</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="pop.js"></script>
+
+</body>
+</html>
